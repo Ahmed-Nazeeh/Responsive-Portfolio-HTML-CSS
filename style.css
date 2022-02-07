@@ -1,0 +1,21 @@
+/* GLOBALE VIEW */
+
+h1 {
+    color: rgb(136, 255, 0);
+}
+
+
+/* Tablet View */
+
+@media (max-width: 768px) {
+    h1 {color: coral;}
+}
+
+/* Mobile View */
+
+@media (max-width: 700px) {
+    h1 {color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    }
+    
+}
