@@ -1,21 +1,35 @@
 /* GLOBALE VIEW */
 
-h1 {
-    color: rgb(136, 255, 0);
+.container {
+    background-color: rgb(0, 255, 76);
+    min-height: 500px;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+.col {
+    background-color: rgb(255, 0, 212);
+    min-height: 200px;
+    width: 30%;
+    margin-bottom: 40px;
+}
 
 /* Tablet View */
 
 @media (max-width: 768px) {
-    h1 {color: coral;}
+   .col {
+       width: 45%;
+   }
 }
 
 /* Mobile View */
 
-@media (max-width: 700px) {
-    h1 {color: rgb(0, 0, 0);
-    font-family: 'Courier New', Courier, monospace;
+@media (max-width: 500px) {
+    .col {
+        width: 100%;
     }
     
 }
