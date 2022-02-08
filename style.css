@@ -17,12 +17,18 @@
     margin-bottom: 40px;
 }
 
+.hide-descktop-only {
+    display: none;
+}
 /* Tablet View */
 
 @media (max-width: 768px) {
    .col {
        width: 45%;
    }
+   .hide-descktop-only {
+    display: block;
+}
 }
 
 /* Mobile View */
@@ -31,5 +37,7 @@
     .col {
         width: 100%;
     }
-    
+    .hide-mobile {
+        display: none;
+    }
 }
