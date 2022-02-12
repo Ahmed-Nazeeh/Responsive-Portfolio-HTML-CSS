@@ -87,6 +87,28 @@ header p {
    }
    .hide-descktop-only {
     display: block;
+   }
+   header {
+    display: block;
+    text-align: center;
+}
+.header-container {
+    position: relative;
+}
+
+.container {
+    padding-top: 0;
+}
+nav a {
+    display: block;
+}
+
+.logo {
+    padding:40px;
+}
+
+.mybutton {
+    margin-left: 0;
 }
 }
 
@@ -98,5 +120,27 @@ header p {
     }
     .hide-mobile {
         display: none;
+    }
+    header {
+        display: block;
+        text-align: center;
+    }
+    .header-container {
+        position: relative;
+    }
+
+    .container {
+        padding-top: 0;
+    }
+    nav a {
+        display: block;
+    }
+
+    .logo {
+        padding:40px;
+    }
+
+    .mybutton {
+        margin-left: 0;
     }
 }
